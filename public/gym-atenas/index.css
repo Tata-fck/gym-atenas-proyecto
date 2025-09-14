@@ -13,6 +13,90 @@ body{
     min-height: 100%;
 }
 
+/* --- NUEVOS ESTILOS PARA LA LÍNEA NEGRA SUPERIOR --- */
+.top-line {
+    width: 100%;
+    height: 70px; /* Puedes ajustar el grosor de la línea */
+    background-color: #080808; /* El color amarillo que deseas */
+    position: absolute; /* Para que se posicione sobre otros elementos */
+    /*margin-top: 0px; /* Crea el espacio de 50px arriba de la barra */
+    /*top: 0; /* Lo pega a la parte superior de la ventana */
+    /*left: 0; /* Lo pega al borde izquierdo */
+    z-index: 999; /* Asegura que esté por encima de todo lo demás */
+}
+
+/* --- ESTILOS PARA EL BOTÓN DE MENÚ DE HAMBURGUESA --- */
+.menu-toggle {
+    position: fixed; /* Lo fija en la pantalla al desplazarse */
+    top: 20px; /* Posición desde la parte superior */
+    right: 20px; /* Posición desde la derecha */
+    width: 30px; /* Ancho del botón */
+    height: 25px; /* Altura del botón */
+    display: flex; /* Para organizar las líneas del ícono */
+    flex-direction: column; /* Apila las líneas verticalmente */
+    justify-content: space-between; /* Distribuye las líneas uniformemente */
+    cursor: pointer; /* Cambia el cursor para indicar que es clicable */
+    z-index: 1000; /* Lo mantiene por encima de todo */
+}
+
+.hamburger {
+    width: 100%; /* Las líneas ocupan todo el ancho del botón */
+    height: 3px; /* El grosor de cada línea */
+    background-color: #fbff2a; /* Color de las líneas */
+    border-radius: 2px; /* Redondea las esquinas de las líneas */
+    transition: all 0.3s ease; /* Añade una animación suave */
+}
+
+/* --- ESTILOS PARA EL PANEL DEL MENÚ LATERAL --- */
+.side-menu {
+    position: fixed; /* Lo fija en la pantalla */
+    top: 0; /* Lo pega a la parte superior */
+    right: -300px; /* Lo oculta fuera de la pantalla (su ancho es 300px) */
+    width: 300px; /* Ancho del menú */
+    height: 100%; /* Ocupa toda la altura de la pantalla */
+    background-color: white; /* Color de fondo del panel */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2); /* Sombra para que se destaque */
+    transition: right 0.3s ease; /* Animación para que se deslice */
+    z-index: 999; /* Se superpone al contenido principal */
+    padding-top: 60px; /* Espacio para el botón de cierre */
+}
+
+.side-menu.open {
+    right: 0; /* Se activa con JavaScript, mueve el menú para hacerlo visible */
+}
+
+.close-btn {
+    position: absolute; /* Permite posicionarlo dentro del panel */
+    top: 20px; /* Posición desde arriba */
+    right: 20px; /* Posición desde la derecha */
+    font-size: 30px; /* Tamaño de la 'X' */
+    cursor: pointer; /* Cambia el cursor a mano */
+    color: #333; /* Color de la 'X' */
+}
+
+.menu-list {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+.menu-list li {
+    padding: 15px 20px; /* Espaciado dentro de cada opción */
+    border-bottom: 1px solid #eee; /* Línea separadora */
+}
+
+.menu-list li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #333; /* Color del texto de las opciones */
+    font-size: 18px; /* Tamaño de fuente */
+    display: block; /* Hace que toda el área sea clicable */
+    font-family: "Anton", sans-serif; /* Aplica la fuente */
+}
+
+.menu-list li a:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el mouse */
+}
+
 main{
     flex-grow: 1;
 }
@@ -39,13 +123,14 @@ main{
 
 .contenedor-1 .logo{
     width: auto;
-    height: 400px;
+    height: 200px; /*Reduje el tamaño del logo de 400, a 100 px
 
     /*posicion*/
     position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: -4%; /*Lo movi de manera que quede arriba */
+    left: 10px; /*Lo movi a la izquierda a 10px, estaba en el centro al 50%*/
+    transform: none;
+    z-index: 999; /*Para que el logo se vea hasta en frente de todo.*/
 }
 
 .contenedor-1 .info-cliente{
