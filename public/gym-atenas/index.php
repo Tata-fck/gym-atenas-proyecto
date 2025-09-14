@@ -3,12 +3,15 @@ $page_title = "Gym Atenas Industria";
 
 // 1. Cargar la configuración de forma segura.
 // Esta ruta es relativa al archivo actual y siempre funcionará dentro del paquete.
+
+//-1. En la etiqueta header le doy una clase llamada top-bar, para llamarla en css 
 require_once __DIR__ . '..\..\..\bootstrap.php';
 
 include(SHARED_PATH . "/elementos/head-vcard/head.php");
 ?>
 
 <body>
+    <header class="top-bar"></header>
     <main>
         <div class="contenedor-1">
             <img class="logo" src="img/logo.png" alt="Gym Atenas Logo">
