@@ -11,7 +11,6 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
 ?>
 
 <body>
-    <header class="top-bar"></header>
     <main>
         <div class="contenedor-1">
             <img class="logo" src="img/logo.png" alt="Gym Atenas Logo">
@@ -26,3 +25,4 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
     </main>
     <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
 </body>
+</html>
