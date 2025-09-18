@@ -23,6 +23,10 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             
         </div>
     </main>
+    
+    <?php include("elementos/footer.html");?>
+    <link rel="stylesheet" href="elementos/footer.css">
+
     <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
 
 </body>
