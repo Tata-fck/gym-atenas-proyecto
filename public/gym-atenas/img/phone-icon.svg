@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="phone-icon.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="35.625"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="phone-call" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:#fff;opacity:0;}.cls-2{fill:#231f20;}</style>
+  </defs>
+  <title
+     id="title1">phone-call</title>
+  <g
+     id="Layer_2"
+     data-name="Layer 2">
+    <g
+       id="phone-call">
+      <g
+         id="phone-call-2"
+         data-name="phone-call">
+        <rect
+           class="cls-1"
+           width="24"
+           height="24"
+           id="rect1"
+           x="0"
+           y="0"
+           style="display:none" />
+        <path
+           class="cls-2"
+           d="m 13.169825,7.2785965 a 3.5515789,3.5515789 0 0 1 3.551578,3.5515785 1.1838597,1.1838597 0 0 0 2.367719,0 5.9192983,5.9192983 0 0 0 -5.919297,-5.9192978 1.1838597,1.1838597 0 0 0 0,2.3677193 z"
+           id="path1"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1.18386" />
+        <path
+           class="cls-2"
+           d="m 13.169825,2.5431579 a 8.2870176,8.2870176 0 0 1 8.287017,8.2870171 1.1838597,1.1838597 0 0 0 2.367719,0 10.654737,10.654737 0 0 0 -10.654736,-10.6547364 1.1838597,1.1838597 0 0 0 0,2.3677193 z"
+           id="path2"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1.18386" />
+        <path
+           class="cls-2"
+           d="M 23.528596,16.642926 A 1.1838597,1.1838597 0 0 0 22.676217,15.873418 L 15.57306,14.251529 a 1.1838597,1.1838597 0 0 0 -1.089151,0.307805 c -0.165741,0.153901 -0.177579,0.16574 -0.947089,1.633725 A 11.732049,11.732049 0 0 1 7.7714243,10.403986 C 9.2749256,9.6463158 9.2867649,9.6463158 9.440666,9.4687368 A 1.1838597,1.1838597 0 0 0 9.7484703,8.3795859 L 8.1265822,1.3592983 A 1.1838597,1.1838597 0 0 0 7.3570733,0.5069193 4.4868281,4.4868281 0 0 0 6.5046944,0.29382456 4.664407,4.664407 0 0 0 5.5931225,0.1754386 5.4457544,5.4457544 0 0 0 0.14736813,5.621193 18.255116,18.255116 0 0 0 18.378806,23.852632 a 5.4457544,5.4457544 0 0 0 5.445755,-5.445755 5.6470105,5.6470105 0 0 0 -0.07103,-0.899733 5.1379509,5.1379509 0 0 0 -0.224934,-0.864218 z"
+           id="path3"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:1.18386" />
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>phone-call</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
