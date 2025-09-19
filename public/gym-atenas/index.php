@@ -1,7 +1,7 @@
 <?php 
 $page_title = "Gym Atenas Industria";
 
-require_once __DIR__ . '..\..\..\bootstrap.php';
+require_once __DIR__ . '../../../bootstrap.php';
 
 include(SHARED_PATH . "/elementos/head-vcard/head.php");
 ?>
