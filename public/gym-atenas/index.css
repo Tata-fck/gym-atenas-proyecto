@@ -45,17 +45,24 @@
     text-align: center;
     letter-spacing: 2px;
 }
-.contenedor-2{
+
+.titulo_contenedor-2{
+    width: 100%;
+    margin: -200px 0 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.contenedor-3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;
-    margin-top: -150px;
     padding: 50px 15% 0 15%;
     background: url('img/img-2.png') no-repeat center;
     background-size: cover;
     color: white;
 }
-.contenedor-2::before{
+.contenedor-3::before{
     content: '';
     position: absolute;
     top: 0;
@@ -68,80 +75,80 @@
     mask-image: linear-gradient(to top, black 85%, rgba(0,0,0,0.5) 90%, transparent 100%);
 }
 
-.contenedor-2 .adornos{
+.contenedor-3 .adornos{
     position: absolute;
     top: 2%;
     left: 0;
     width: 100%;
 }
-.contenedor-2 .adornos-2{
+.contenedor-3 .adornos-2{
     position: absolute;
     top: 550px;
     left: 0;
     width: 100%;
 }
-.contenedor-2 .adorno-1,
-.contenedor-2 .adorno-2{
+.contenedor-3 .adorno-1,
+.contenedor-3 .adorno-2{
     height: 200px;
 }
-.contenedor-2 .adorno-2{
+.contenedor-3 .adorno-2{
     position: absolute;
     right: 0;
 }
 
-.contenedor-2 .tarjeta{
+.contenedor-3 .tarjeta{
     margin: 0 30px 30px 30px;
 }
-.contenedor-2 .tarjeta h2{
+.contenedor-3 .tarjeta h2{
     text-align: center;
     margin-bottom: 30px;
 }
-.contenedor-2 .tarjeta ul{
+.contenedor-3 .tarjeta ul{
     border: #fbff2a 10px dashed;
     min-height: 300px;
     font-size: 30px;
 }
 
-.contenedor-2 h2{
+.contenedor-3 h2{
     margin: 0;
     font-size: 50px;
 }
-.contenedor-2 p{
+.contenedor-3 p{
     font-size: 25px;
     margin: 0;
 }
-.contenedor-2 .direccion{
+.contenedor-3 .direccion{
     grid-column: span 2;
     display: grid;
     grid-template-columns: 100px auto;
     align-items: center;
     width: 50%;
 }
-.contenedor-2 .direccion img{
+.contenedor-3 .direccion img{
     width: 80px;
     height: auto;
     vertical-align: middle;
 }
-.contenedor-2 .contacto{
+.contenedor-3 .contacto{
     margin: 50px 0 30px 5px;
     grid-column: span 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.contenedor-2 .titulo-contacto h2{
+.contenedor-3 .titulo-contacto h2{
     margin-right: 100px;
     margin-top: 30px;
     color: #fbff2a;
     text-align: end;
 }
-.contenedor-2 .contacto .contacto-linea{
+.contenedor-3 .contacto .contacto-linea{
     display: grid;
     grid-template-columns: 60px auto;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.contenedor-2 .contacto img{
+.contenedor-3 .contacto img{
     width: 40px;
     height: auto;
     vertical-align: middle;
@@ -171,27 +178,27 @@
         font-size: 20px;
     }
 
-    .contenedor-2{
+    .contenedor-3{
         grid-template-columns: 1fr;
         padding: 50px 5% 0 5%;
         margin-top: -100px;
     }
-    .contenedor-2 .contacto{
+    .contenedor-3 .contacto{
         grid-template-columns: 1fr;
     }
-    .contenedor-2 .adorno-1,
-    .contenedor-2 .adorno-2{
+    .contenedor-3 .adorno-1,
+    .contenedor-3 .adorno-2{
         height: 50px;
     }
-    .contenedor-2 .direccion,
-    .contenedor-2 .contacto{
+    .contenedor-3 .direccion,
+    .contenedor-3 .contacto{
         grid-column: auto;
     }
-    .contenedor-2 .direccion{
+    .contenedor-3 .direccion{
         width: 100%;
         grid-template-columns: 90px auto;
     }
-    .contenedor-2 .titulo-contacto h2{
+    .contenedor-3 .titulo-contacto h2{
         text-align: center; 
         margin-right: 0;  
         margin-bottom: 10px; 

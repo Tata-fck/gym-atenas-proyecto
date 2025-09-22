@@ -15,11 +15,21 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         <div class="contenedor-1">
             <img class="logo" src="img/logo.png" alt="Gym Atenas Logo">
             <div class="info-cliente">
-                <h1>ATENAS INDUSTRIA GYM</h1>
-                <h2>TU MEJOR VERSIÓN EMPIEZA AQUÍ</h2>
+                
+                <h1>TU MEJOR VERSIÓN EMPIEZA AQUÍ</h1>
             </div>
         </div>
+        <div class="titulo_contenedor-2">
+            <h1>¿QUE OBTIENES?</h1>
+        </div>
         <div class="contenedor-2">
+            <div class="tarjeta">
+                <img src="img/pesas-icon.svg" alt="Icono de Pesas">
+                <h2>Apoyo en tu entrenamiento físico</h2>
+                <p>Más de 50 clases por semana en grupos pequeños</p>
+            </div>
+        </div>
+        <div class="contenedor-3">
             <div class="adornos">
                 <img class="adorno-1" src="img/flecha-r.svg" alt="Adornos">
                 <img class="adorno-2" src="img/flecha-l.svg" alt="Adornos">
