@@ -1,0 +1,20 @@
+/* Estilos para las secciones de "Nosotros", "Misión" y "Visión" */
+.seccion-nosotros {
+  max-width: 800px; /* Limita el ancho del contenido para que no sea muy largo */
+  margin: 50px auto; /* Centra el div y agrega espacio vertical */
+  padding: 20px;
+  text-align: center; /* Centra todo el texto dentro de la sección */
+}
+
+.seccion-nosotros h2 {
+  font-size: 2.5rem; /* Un tamaño grande para el título */
+  color: #f50000; /* Color blanco para el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.seccion-nosotros p {
+  font-size: 1rem; /* Un tamaño más pequeño para el párrafo */
+  color: #ccc; /* Un color más claro para el texto de los párrafos */
+  line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
+  margin-bottom: 20px;
+}

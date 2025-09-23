@@ -16,7 +16,7 @@ if (!defined('SHARED_PATH')) {
         
         <link rel="icon" type="image/png" href="<?php echo BASE_URL_ASSETS; ?>/shared/img-empresa/favicon-vcard.png">  
 
-        <link rel="stylesheet" href="<?php echo BASE_URL_ASSETS; ?>/public/gym-atenas/index.css">
+        <link rel="stylesheet" href="<?php echo BASE_URL_ASSETS; ?>/public/gym-atenas/css/index.css">
     </head>
     <style>
         body {

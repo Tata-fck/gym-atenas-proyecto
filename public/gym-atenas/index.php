@@ -13,7 +13,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         <link rel="stylesheet" href="elementos/header.css">
 
         <div class="contenedor-1">
-            <img class="logo" src="img/logo.png" alt="Gym Atenas Logo">
+            
             <div class="info-cliente">
                 
                 <h1>TU MEJOR VERSIÓN EMPIEZA AQUÍ</h1>
@@ -24,7 +24,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         </div>
         <div class="contenedor-2">
             <div class="tarjeta">
-                <img src="img/pesas-icon.svg" alt="Icono de Pesas">
+                <img src="img/" alt="Icono de Pesas">
                 <h2>Apoyo en tu entrenamiento físico</h2>
                 <p>Más de 50 clases por semana en grupos pequeños</p>
             </div>
