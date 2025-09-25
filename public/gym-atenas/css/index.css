@@ -1,3 +1,7 @@
+h1{
+    margin: 0;
+}
+
 .contenedor-1{
     width: 100%;
     height: 900px;
@@ -7,14 +11,16 @@
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 60%;
     height: 100%;
     z-index: -1;
-    background: url('../img/fondo-2.png') no-repeat;
+    background: url('../img/fondo-3.png') no-repeat;
     background-size: cover;
     background-position: center 80%;
-    mask-image: linear-gradient(to bottom, black 40%, rgba(0,0,0,0.5) 55%, transparent 70%);
+    mask-image: linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 95%),
+                linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
+                mask-composite: intersect;
 }
 .contenedor-1 .logo{
     width: auto;
@@ -25,32 +31,71 @@
     transform: translateX(-50%);
 }
 .contenedor-1 .info-cliente{
-    width: 100%;
+    width: 50%;
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .contenedor-1 h1{
     width: 100%;
     color: #ff3131;
-    font-size: 100px;
+    font-size: 200px;
     text-align: center;
     letter-spacing: 2px;
-    margin: 0;
+    margin: -50px 0 -50px 0;
 }
 .contenedor-1 h2{
     width: 100%;
     color: white;
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     letter-spacing: 2px;
+    margin: 0;
 }
 
 .titulo_contenedor-2{
     width: 100%;
-    margin: -200px 0 100px 0;
     text-align: center;
+    color: #ff3131;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.contenedor-2{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.contenedor-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+    background: url('../img/fondo-2.png') no-repeat center;
+    background-size: cover;
+    background-position: center 35%;
+    mask-image: linear-gradient(to bottom, black 80%, rgba(0,0,0,0.5) 90%, transparent 100%),
+                linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 95%),
+                linear-gradient(to top, black 85%, rgba(0,0,0,0.5) 90%, transparent 100%);
+                mask-composite: intersect;
+}
+
+.contenedor-2 .contenedor-2_1{
+    width: 30%;
     color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
 }
 
 .contenedor-3{
@@ -158,34 +203,37 @@
 
 @media (max-width: 576px){
     .contenedor-1{
-        height: 700px;
+        height: 45vh;
     }
     .contenedor-1::before{
         background-position: center;
-        mask-image: linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 70%, transparent 90%);
-    }
-    .contenedor-1 .logo{
-        top: 10%;
-        height: 300px;
     }
     .contenedor-1 .info-cliente{
         top: 60%;
     }
     .contenedor-1 h1{
-        font-size: 50px;
+        font-size: 70px;
+        margin: -20px 0 -20px 0;
     }
     .contenedor-1 h2{
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .titulo_contenedor-2{
-        margin: -100px 0 50px 0;
+        font-size: 15px;
+        margin: 20px 0;
     }
+
+    .contenedor-2{
+        height: 45vh;
+    }  
+    .contenedor-2 .contenedor-2_1{
+        font-size: 15px;
+    } 
 
     .contenedor-3{
         grid-template-columns: 1fr;
         padding: 50px 5% 0 5%;
-        margin-top: -100px;
     }
     .contenedor-3 .contacto{
         grid-template-columns: 1fr;
