@@ -67,7 +67,6 @@ header .info-header h1 {
     top: 20%;
     left: 300px;
     transition: opacity 0.3s;
-    text-shadow: 3px 3px  5px #feffad;
 }
 .subtitulo-logo {
   color: #fbff2a;
@@ -76,7 +75,6 @@ header .info-header h1 {
   top: 50%; 
   left: 420px; 
   transform: translateY(-50%);
-  text-shadow: 3px 3px  5px #feffad;
 }
 nav {
     display: flex;
@@ -109,7 +107,7 @@ nav {
     transition: all 0.3s ease;
 }
 nav a {
-    color: #e7e7e7;
+    color: #fbff2a;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -118,7 +116,7 @@ nav a {
     transition: color 0.3s ease;
 }
 nav a:hover {
-    color: #ffcc00;
+    color: #ff3131;
 }
 nav a::before {
     content: "";
@@ -127,7 +125,7 @@ nav a::before {
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: #ffcc00;
+    background-color: #ff3131;
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
