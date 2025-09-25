@@ -12,23 +12,25 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         <?php include("elementos/header.html");?>
         <link rel="stylesheet" href="elementos/header.css">
 
+        <link rel="stylesheet" href="css/index.css">
+
         <div class="contenedor-1">
             
             <div class="info-cliente">
-                
-                <h1>TU MEJOR VERSIÓN EMPIEZA AQUÍ</h1>
+                <h2>MAS DE</h2>
+                <h1>100</h1>
+                <h2>MÁQUINAS!</h2>
             </div>
         </div>
         <div class="titulo_contenedor-2">
-            <h1>¿QUE OBTIENES?</h1>
+            <h1>Tu mejor versión empieza aquí.</h1>
         </div>
         <div class="contenedor-2">
-            <div class="tarjeta">
-                <img src="img/" alt="Icono de Pesas">
-                <h2>Apoyo en tu entrenamiento físico</h2>
-                <p>Más de 50 clases por semana en grupos pequeños</p>
+            <div class="contenedor-2_1">
+                <h2>Contamos con entrenadores expertos que te acompañarán en cada paso</h2>
             </div>
         </div>
+        <!--
         <div class="contenedor-3">
             <div class="adornos">
                 <img class="adorno-1" src="img/flecha-r.svg" alt="Adornos">
@@ -98,6 +100,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 </div>
             </div>
         </div>
+-->
     </main>
 
     <?php include("elementos/footer.html");?>

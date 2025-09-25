@@ -176,8 +176,9 @@ nav a:hover::before {
         right: 70px;
     }
     header .subtitulo-logo {
-        font-size: 16px; 
-        left: 150px;
+        font-size: 16px;
+        text-align: center; 
+        left: 120px;
         right: 70px;
         top: 65%;
         transform: translateY(-50%);
@@ -223,10 +224,10 @@ nav a:hover::before {
         display: block;
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 10px 5px;
         font-size: 1rem;
         margin: 0;
-        opacity: 0; /* Ocultamos los enlaces por defecto */
+        opacity: 0;
     }
     /* Aplicamos la animación a los enlaces cuando el menú está activo */
     .menu-items.active a {

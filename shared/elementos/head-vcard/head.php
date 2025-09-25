@@ -15,8 +15,6 @@ if (!defined('SHARED_PATH')) {
         <title><?php echo isset($page_title) ? $page_title : "NexoCard - vCard";?></title>
         
         <link rel="icon" type="image/png" href="<?php echo BASE_URL_ASSETS; ?>/shared/img-empresa/favicon-vcard.png">  
-
-        <link rel="stylesheet" href="<?php echo BASE_URL_ASSETS; ?>/public/gym-atenas/css/index.css">
     </head>
     <style>
         body {
