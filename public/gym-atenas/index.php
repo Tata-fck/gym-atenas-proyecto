@@ -19,16 +19,6 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 <h1>TU MEJOR VERSIÓN EMPIEZA AQUÍ</h1>
             </div>
         </div>
-        <div class="titulo_contenedor-2">
-            <h1>¿QUE OBTIENES?</h1>
-        </div>
-        <div class="contenedor-2">
-            <div class="tarjeta">
-                <img src="img/" alt="Icono de Pesas">
-                <h2>Apoyo en tu entrenamiento físico</h2>
-                <p>Más de 50 clases por semana en grupos pequeños</p>
-            </div>
-        </div>
         <div class="contenedor-3">
             <div class="adornos">
                 <img class="adorno-1" src="img/flecha-r.svg" alt="Adornos">

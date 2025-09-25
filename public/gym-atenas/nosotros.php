@@ -28,7 +28,19 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <h2>VISIÓN</h2>
             <p>Ser reconocidos como el gimnasio de referencia en la ciudad, donde calidad, profesionalismo y atención personalizada se combinan para ofrecer resultados visibles y una experiencia única que fidelice a nuestra comunidad.</p>
         </div>
-
+        
+        <div class="seccion-nosotros-valores">
+            <h2>VALORES</h2>
+            <p>Compromiso: Cada meta de nuestros miembros es nuestra prioridad.</p>
+            <p>Excelencia: Entrenadores y servicios diseñados para ofrecer la mejor experiencia.</p>
+            <p>Inclusión: Un espacio donde todos son bienvenidos, sin importar su nivel de entrenamiento.</p>
+            <p>Salud Integral: Promovemos hábitos que benefician cuerpo y mente.</p>
+            <p>Motivación: Inspiramos a nuestros miembros a superar cada reto con energía y entusiasmo.</p>
+            <p>Respeto: Valoramos la diversidad y fomentamos un ambiente de convivencia sana.</p>
+            <p>Honestidad: Actuamos con transparencia y ética en cada servicio que ofrecemos.</p>
+            <p>Seguridad: Garantizamos instalaciones seguras y un entorno confiable para todos.</p>
+            <p>Responsabilidad: Asumimos con seriedad el compromiso de cuidar la salud, bienestar y confianza de nuestros miembros.</p>
+        </div>
     </main>
 
            <?php include("elementos/footer.html");?>

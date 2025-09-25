@@ -4,12 +4,15 @@
   margin: 50px auto; /* Centra el div y agrega espacio vertical */
   padding: 20px;
   text-align: center; /* Centra todo el texto dentro de la sección */
+  font-family: 'Avenir';
 }
 
 .seccion-nosotros h2 {
   font-size: 2.5rem; /* Un tamaño grande para el título */
-  color: #f50000; /* Color blanco para el título */
+  color: #ffffff; /* Color blanco para el título */
   margin-bottom: 20px; /* Espacio debajo del título */
+  text-align: center; /* Centra todo el texto dentro de la sección */
+  font-family: "Anton";
 }
 
 .seccion-nosotros p {
@@ -17,4 +20,23 @@
   color: #ccc; /* Un color más claro para el texto de los párrafos */
   line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
   margin-bottom: 20px;
+}
+
+.seccion-nosotros-valores h2 {
+  font-size: 2.5rem; /* Un tamaño grande para el título */
+  color: #ffffff; /* Color blanco para el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  text-align: center;
+}
+.seccion-nosotros-valores p {
+  font-size: 1rem; /* Un tamaño más pequeño para el párrafo */
+  color: #ccc; /* Un color más claro para el texto de los párrafos */
+  line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 800px; /* Limita el ancho del contenido para que no sea muy largo */
+  margin: .1px auto; /* Centra el div y agrega espacio vertical */
+  padding: 10px;
+  font-family: 'Avenir';
+
 }
