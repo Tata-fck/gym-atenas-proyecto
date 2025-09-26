@@ -54,6 +54,19 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 </div>
             </div>
         </div>
+        <div class="contenedor-3">
+            <h2><span>ACTIVIDADES</span></h2>
+            <p>Ofrecemos una variedad de clases y actividades para todos los niveles y objetivos:</p>
+            <h3>Taekwon-do:</h3>
+                <p>Mejora tu disciplina, fuerza y coordinación.</p>
+            <h3>Cardio Escaladoras:</h3>
+                <p>Rutinas efectivas para resistencia y quema de calorías.</p>
+             <h3>Jumping:</h3>
+                <p>Ejercicios dinámicos que combinan fuerza y diversión.</p>
+            <h3>Zumba:</h3>
+                <p>Tonifica mientras disfrutas de la música y la energía del grupo.</p>
+            <div class="separador"></div> 
+        </div>
         
     </main>
 
