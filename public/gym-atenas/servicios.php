@@ -35,6 +35,25 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             </div>
             <div class="separador"></div>  
         </div>
+
+        <div class="contenedor-2">
+            <h2><span>ÁREAS</span></h2>
+            <p>Nuestro gimnasio está cuidadosamente diseñado para ofrecer comodidad y funcionalidad:</p>
+            <div class="areas">
+                <div class="cont2-1">
+                    <h3>Nivel 1:</h3>
+                    <h4>Área de cardio y salón de usos múltiples.</h4>
+                </div>
+                <div class="cont2-2">
+                    <h3>Nivel 2:</h3>
+                    <h4>Peso integrado.</h4>
+                </div>
+                <div class="cont2-3">
+                    <h3>Nivel 3:</h3>
+                    <h4>Peso libre.</h4>
+                </div>
+            </div>
+        </div>
         
     </main>
 
