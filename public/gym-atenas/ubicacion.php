@@ -21,8 +21,9 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="seccion-texto-1">
                 <p>C. Gitana, La Nopalera, Tláhuac, 13220 Ciudad de México, CDMX. </p>
             </div>
+            <img src="/gym-atenas-proyecto/public/gym-atenas/img/fondo-7.png" alt="Mapa de ubicación">            
             <div class="seccion-contenido">
-                <h2><span>¡ABIERTO 363 DÍAS!</span></h2>
+                <h2>¡ABIERTO <span class="color-resaltado">363</span> DÍAS!</h2>
             </div>
             <div class="seccion-texto-2">
                 <p>Lunes a viernes: 6:00 A.M. – 23:00 P.M.</p>             
