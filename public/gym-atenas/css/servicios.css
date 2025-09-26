@@ -43,6 +43,7 @@
   font-size: 2.5rem; /* Un tamaño grande para el título */
   color: #f50000; /* Color blanco para el título */
   margin-bottom: 20px; /* Espacio debajo del título */
+  margin-left: -7%;
 }
 .texto h2 span,
 .contenedor-2 h2 span {

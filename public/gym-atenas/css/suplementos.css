@@ -4,8 +4,6 @@
   height: 100%;
   position: relative;
   color: white;
-  max-width: 60%; /* Limita el ancho del contenido para que no sea muy largo */
-  margin:50px auto; /* Centra el div y agrega espacio vertical */
   text-align: center; /* Centra todo el texto dentro de la sección */
 }
 
@@ -13,14 +11,17 @@
 .contenedor-1::before{
   content: '';
   position: absolute;
-  margin: 0;
-  width: 100%;
-  min-height: 100%;
-  background: url('../img/fondo-6.png') no-repeat center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  width: 60%;
+  height: 100%;
+  background: url('../img/fondo-6.png') repeat;
   background-size: cover;
+  background-position: center 25%;
   mask-image: linear-gradient(to left, black 80%, rgba(0,0,0,0.5) 90%, transparent 95%),
-              linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 85%, transparent 99%),
-              linear-gradient(to right, black 80%, rgba(0,0,0,0.5) 90%, transparent 95%);
+              linear-gradient(to bottom, black 80%, rgba(0,0,0,0.5) 90%, transparent 99%),
+              linear-gradient(to right, black 95%, rgba(0,0,0,0.5) 97%, transparent 95%);
               mask-composite: intersect;
   filter: brightness(0.3);
   z-index: -1;
@@ -31,15 +32,21 @@
 }
 
 .seccion-suplementos {
-  max-width: 60%;
-  margin:50px auto; 
+  width: 100%;
   text-align: center;
   color: white;
 }
 
 .seccion-suplementos h1{
-    font-size: 4em;
+    font-size: 3em;
+    margin: 20px 5% 20px 5%;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.seccion-texto-1,
+.seccion-texto-2{
+  width: 100%;
+  height: auto;
 }
 
 .seccion-texto-1 p,
@@ -49,27 +56,26 @@
   line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
   margin-bottom: 20px;
   color: yellow;
-  height: 95px;
-  margin:50px auto; 
+  margin: 50px auto; 
 }
 
 .seccion-contenido {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 1.5em;
+  width: 100%;
 }
 
 @media (max-width: 576px) {
   .contenedor-1::before{
-    mask-image: linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 85%, transparent 99%);
+    width: 100%;
+    height: 100%;
+    mask-image: linear-gradient(to bottom, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
+    background-position: 30% 70%;
   }
-}
-.separador{
-  height: 95px;
-}
-
-.seccion-suplementos {
-  max-width: 60%;
-  margin:50px auto; 
-  text-align: center;
-  color: white;
+  .separador{
+    height: 120px;
+  }
+  .seccion-contenido{
+    padding: 0 20px 20px 20px;
+    width: 90%;
+  }
 }

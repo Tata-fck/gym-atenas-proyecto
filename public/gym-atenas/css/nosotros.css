@@ -41,7 +41,8 @@
   font-size: 2.5rem; /* Un tamaño grande para el título */
   color: #ffffff; 
   margin-bottom: 20px; /* Espacio debajo del título */
-  text-align: center; /* Centra todo el texto dentro de la sección */
+  text-align: center;
+  margin-left: -7%; 
   font-family: "Anton";
 }
 .seccion-nosotros h2 span {
@@ -77,6 +78,7 @@
   background-repeat: no-repeat;
   background-size: 1em 1em; 
   padding-left: 3em; 
+  margin-bottom: 10px;
   background-position: 0.5em center; 
 }
 

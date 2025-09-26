@@ -33,6 +33,8 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="seccion-texto-2">
                 <p>Todo pensado para mantener tu energía y apoyar tus objetivos sin complicaciones.</p>             
             </div>
+            
+        </div>
     </main>
 
      <?php include("elementos/footer.html");?>
