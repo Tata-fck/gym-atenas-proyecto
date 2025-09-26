@@ -8,6 +8,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
 
 
 <body>
+    <div class="background-wrapper"></div> 
     <main>
         <?php include("elementos/header.html");?>
         <link rel="stylesheet" href="elementos/header.css">

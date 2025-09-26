@@ -1,0 +1,52 @@
+.contenedor-1{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  max-width: 60%; /* Limita el ancho del contenido para que no sea muy largo */
+  margin:50px auto; /* Centra el div y agrega espacio vertical */
+  text-align: center; /* Centra todo el texto dentro de la sección */
+}
+
+.separador{
+  height: 95px;
+}
+
+.seccion-ubicacion{
+    font-size: 2em;
+     margin-bottom: 20px;
+    
+    /* Agrega esta línea para separar las letras */
+    letter-spacing: 10px; 
+}
+
+.seccion-texto-1{
+    font-size: 2em;
+    font-family: 'Avenir';
+}
+
+.seccion-contenido{
+    font-size: 2em;
+ margin-bottom: 20px;
+    
+    /* Agrega esta línea para separar las letras */
+    letter-spacing: 20px; 
+}
+.color-resaltado {
+    color: red; /* O un valor hexadecimal como #FF0000 */
+}
+
+.seccion-texto-2,
+.seccion-texto-3{
+    font-size: 2em;
+    font-family: 'Avenir';
+}
+
+.seccion-texto-2{
+    height: 150px;
+}
+
+.seccion-texto-2{
+    height: 150px;
+}

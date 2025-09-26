@@ -17,7 +17,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         <div class="contenedor-1">
             
             <div class="info-cliente">
-                <h2>MAS DE</h2>
+                <h2>MÁS DE</h2>
                 <h1>100</h1>
                 <h2>MÁQUINAS!</h2>
             </div>
