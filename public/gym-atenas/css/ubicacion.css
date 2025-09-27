@@ -1,52 +1,88 @@
-.contenedor-1{
-  margin: 0;
-  width: 100%;
+.contenedor-1 {
+  width: 70%;
+  margin: 0 auto;       /* Centra horizontalmente */
   height: 100%;
   position: relative;
   color: white;
-  max-width: 60%; /* Limita el ancho del contenido para que no sea muy largo */
-  margin:50px auto; /* Centra el div y agrega espacio vertical */
-  text-align: center; /* Centra todo el texto dentro de la sección */
+  text-align: center;   /* Centra el texto */
 }
 
-.separador{
-  height: 95px;
+.separador {
+  height: 120px;
 }
 
-.seccion-ubicacion{
-    font-size: 2em;
-     margin-bottom: 20px;
-    
-    /* Agrega esta línea para separar las letras */
-    letter-spacing: 10px; 
+.seccion-ubicacion h1 {
+  font-size: 4em;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  letter-spacing: 10px;
+  margin: 0 auto;
 }
 
-.seccion-texto-1{
-    font-size: 2em;
-    font-family: 'Avenir';
+.seccion-texto-1 {
+  font-family: 'Avenir';
+  width: 90%;
+  margin: 50px auto;
 }
 
-.seccion-contenido{
-    font-size: 2em;
- margin-bottom: 20px;
-    
-    /* Agrega esta línea para separar las letras */
-    letter-spacing: 20px; 
+.seccion-texto-1 span {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: url('../img/ubicacion-icon.svg') no-repeat left center;
+  padding-left: 7rem;
 }
+
+.seccion-contenido {
+  font-size: 2em;
+  margin-bottom: 20px;
+  letter-spacing: 20px;
+}
+
 .color-resaltado {
-    color: red; /* O un valor hexadecimal como #FF0000 */
+  color: red;
 }
 
-.seccion-texto-2,
-.seccion-texto-3{
-    font-size: 2em;
-    font-family: 'Avenir';
+.seccion-texto-2 {
+  font-size: 1.5em;
+  font-family: 'Avenir';
+}
+.seccion-texto-2 b{
+    font-size: 1.3em;
 }
 
-.seccion-texto-2{
-    height: 150px;
+.seccion-texto-2 span {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 3rem; /* espacio para las flechas */
 }
 
-.seccion-texto-2{
-    height: 150px;
+.seccion-texto-2 span::before,
+.seccion-texto-2 span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* centra verticalmente */
+  width: 3rem;
+  height: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.seccion-texto-2 span::before {
+  left: -5px;
+  background-image: url('../img/flecha-r.svg');
+}
+
+.seccion-texto-2 span::after {
+  right: -5px;
+  background-image: url('../img/flecha-l.svg');
+}
+
+
+@media (max-width: 576px) {
+  .contenedor-1 {
+    width: 95%;
+  }
 }

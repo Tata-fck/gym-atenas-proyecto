@@ -187,8 +187,10 @@
   background-position: center 10%;
   z-index: -1;
   filter: brightness(0.5);
-  mask-image: linear-gradient(to bottom, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
-              linear-gradient(to top, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
+  mask-image: linear-gradient(to top, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to right, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to bottom, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to left, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
   mask-composite: intersect;
 }
 .contenedor-3 h2{
