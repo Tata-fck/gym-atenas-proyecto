@@ -44,7 +44,6 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                     <li>Responsabilidad: Asumimos con seriedad el compromiso de cuidar la salud, bienestar y confianza de nuestros miembros.</li>
                 </ul>
             </div>
-            <div class="separador"></div> 
         </div>
     </main>
 

@@ -24,16 +24,16 @@
 }
 
 .seccion-texto-1 span {
-  font-size: 2.5rem;
+  font-size: 1.8em;
   margin-bottom: 20px;
   background: url('../img/ubicacion-icon.svg') no-repeat left center;
-  padding-left: 7rem;
+  padding-left: 2em;
 }
 
 .seccion-contenido {
   font-size: 2em;
   margin-bottom: 20px;
-  letter-spacing: 20px;
+  letter-spacing: 1px;
 }
 
 .color-resaltado {

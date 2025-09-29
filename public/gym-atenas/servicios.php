@@ -54,7 +54,23 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 </div>
             </div>
         </div>
+        <div class="contenedor-4" id="estructura">
+            <div class="separador"></div>
+            <h2><span>ESTRUCTURA</span></h2>
+            <p>Disponemos de:</p>
+            <div class="contenedor-4_1">
+                <h3>baños limpios</h3>
+                <h3>vestidores</h3>
+                <h3>regaderas limpias y equipadas</h3>
+                <h3>estacionamiento propio</h3>
+                <h3>wi-fi gratis</h3>
+                <h3>exhibidor de complementos</h3>
+            </div>
+            <p>Asegurando que cada visita sea práctica y enfocada en tu bienestar.</p>
+            <div class="separador"></div>
+        </div>
         <div class="contenedor-3" id = "actividades">
+             <div class="separador"></div>
             <h2><span>ACTIVIDADES</span></h2>
             <p>Ofrecemos una variedad de clases y actividades para todos los niveles y objetivos:</p>
             <h3>Taekwon-do:</h3>

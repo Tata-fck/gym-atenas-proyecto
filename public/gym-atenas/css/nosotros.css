@@ -61,15 +61,15 @@
 }
 
 .seccion-nosotros p {
-  font-size: 1.6rem; /* Un tamaño más pequeño para el párrafo */
+  font-size: 1.3em; /* Un tamaño más pequeño para el párrafo */
   line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
   margin-bottom: 20px;
 }
 
 .seccion-nosotros ul{
   list-style: none;
-  padding-left: 1.5em;
-  font-size: 1.4rem;
+  padding: 0;
+  font-size: 1.3rem;
 }
 .seccion-nosotros li {
   text-align: justify;
@@ -77,8 +77,9 @@
   background-repeat: no-repeat;
   background-size: 1em 1em; 
   padding-left: 3em; 
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   background-position: 0.5em center; 
+
 }
 
 

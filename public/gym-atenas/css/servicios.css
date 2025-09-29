@@ -3,7 +3,8 @@
 }
 
 .contenedor-1,
-.contenedor-3{
+.contenedor-3,
+.contenedor-4{
     width: 100%;
     position: relative;
     color: white;
@@ -59,15 +60,16 @@
 
 .texto h2,
 .contenedor-2 h2,
-.contenedor-3 h2 {
+.contenedor-3 h2,
+.contenedor-4 h2 {
   font-size: 2.5rem; /* Un tamaño grande para el título */
-  color: #f50000; /* Color blanco para el título */
-  margin-bottom: 20px; /* Espacio debajo del título */
+  margin-bottom: 30px; /* Espacio debajo del título */
   margin-left: -7%;
 }
 .texto h2 span,
 .contenedor-2 h2 span,
-.contenedor-3 h2 span {
+.contenedor-3 h2 span,
+.contenedor-4 h2 span {
   font-size: 2.5rem;
   color: #fbff2a;
   margin-bottom: 20px;
@@ -80,7 +82,8 @@
 
 .texto p,
 .texto ul,
-.contenedor-2 p{
+.contenedor-2 p,
+.contenedor-4 p{
   color: white;
   font-family: avenir;
   font-size: 1.3em;
@@ -193,6 +196,48 @@
   background-position: center 35%;
 }
 
+.contenedor-4::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('../img/fondo-servicios-estructura.png') no-repeat;
+  background-size: cover;
+  background-position: center 55%;
+  z-index: -1;
+  filter: brightness(0.5);
+  mask-image: linear-gradient(to top, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to right, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to bottom, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to left, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
+  mask-composite: intersect;
+}
+
+.contenedor-4 .contenedor-4_1 h3{
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative; 
+  padding-bottom: 1.5em;
+  margin-bottom: 1em;
+  margin-top: 1.5em; 
+}
+
+.contenedor-4_1 h3:not(:last-child)::after {
+  content: '';
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.8), transparent);
+  
+  /* Dimensiones y Posición */
+  position: absolute;
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  width: 50%;
+  height: 5px;
+}
+
 .contenedor-3::before{
   content: '';
   position: absolute;
@@ -211,14 +256,18 @@
               linear-gradient(to left, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
   mask-composite: intersect;
 }
-.contenedor-3 h2{
-  padding-top: 40px;
-}
+
 .contenedor-3 h3{
   margin-bottom: 10px;
 }
 
 @media (max-width: 576px){
+    .texto h2,
+    .contenedor-2 h2,
+    .contenedor-3 h2,
+    .contenedor-4 h2 {
+      margin-left: -3%;
+    }
     .contenedor-1::before{
         width: 100%;
         mask-image: linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 90%, transparent 99%);
@@ -234,5 +283,15 @@
 
     .contenedor-2 .areas{
       width: 95%; 
+    }
+    .contenedor-4 p,
+    .contenedor-4 .contenedor-4_1{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .contenedor-3 p{
+      width: 90%;
+      margin: 0 auto 50px;
     }
 }
