@@ -14,13 +14,13 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         <link rel="stylesheet" href="css/nosotros.css">
         <div class="contenedor-1">
             <div class="separador"></div>   
-            <div class="seccion-nosotros">
+            <div class="seccion-nosotros" id = "historia">
                 <h1>NOSOTROS</h1>
                 <p>Desde 2009, hemos acompañado a cientos de personas en su camino hacia una vida más activa, saludable y llena de energía. A lo largo de estos años, nuestro gimnasio se ha consolidado como un referente en Tláhuac, gracias a la dedicación, profesionalismo y pasión de nuestro equipo de entrenadores.</p>
                 <p>Nuestra trayectoria nos respalda y nos impulsa a seguir innovando, trabajando bajo un enfoque de mejora continua. Hoy contamos con más de 100 máquinas, lo que nos permite ofrecer entrenamientos variados, efectivos y adaptados a todas las necesidades.</p>
             </div>
 
-            <div class="seccion-nosotros">
+            <div class="seccion-nosotros" id = "mision">
                 <h2><span>MISIÓN</span></h2>
                 <p>Brindar un espacio moderno, seguro y motivador donde cada persona pueda desarrollar su potencial físico, guiada por entrenadores capacitados, apoyada por instalaciones de calidad, servicios complementarios, fomentando hábitos saludables y bienestar integral.</p>
             </div>
@@ -30,7 +30,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 <p>Ser reconocidos como el gimnasio de referencia en la ciudad, donde calidad, profesionalismo y atención personalizada se combinan para ofrecer resultados visibles y una experiencia única que fidelice a nuestra comunidad.</p>
             </div>
 
-            <div class="seccion-nosotros">
+            <div class="seccion-nosotros" id = "valores">
                 <h2><span>VALORES</span></h2>
                 <ul>
                     <li>Compromiso: Cada meta de nuestros miembros es nuestra prioridad.</li>

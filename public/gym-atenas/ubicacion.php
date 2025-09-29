@@ -25,7 +25,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="seccion-contenido">
                 <h2>¡ABIERTO <span class="color-resaltado">363</span> DÍAS!</h2>
             </div>
-            <div class="seccion-texto-2">
+            <div class="seccion-texto-2" id = "horario">
                 <p>Lunes a viernes: <br><b>6:00 A.M. – 23:00 P.M.</b></p>             
                 <p>Sábado y Domingo: <br><b>8:00 P.M. – 18:00 P.M.</b></p>  
                 <p>Días festivos: <br><b>8:00 P.M. – 18:00 P.M.</b></p>             

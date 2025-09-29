@@ -10,6 +10,26 @@
     text-align: center;
 }
 
+
+.contenedor-1::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('../img/fondo-4.png') no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  z-index: -1;
+  filter: brightness(0.5);
+  mask-image: linear-gradient(to top, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to right, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to bottom, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%),
+              linear-gradient(to left, black 95%, rgba(0,0,0,0.5) 97.5%, transparent 99%);
+  mask-composite: intersect;
+}
+/*
 .contenedor-1::before{
     content: '';
     position: absolute;
@@ -25,18 +45,16 @@
                 linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
                 mask-composite: intersect;
     filter: brightness(0.5);
-}
+}*/
 
 .contenedor-1 .texto {
-    width: 50%;
-    margin-left: 2%;
+    width: 100%;
     position: relative; 
     transform: none; 
 }
 
 .texto h1{
     font-size: 4em;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .texto h2,
@@ -51,7 +69,7 @@
 .contenedor-2 h2 span,
 .contenedor-3 h2 span {
   font-size: 2.5rem;
-  color: yellow;
+  color: #fbff2a;
   margin-bottom: 20px;
   background: url('../img/flecha-r.svg');
   background-repeat: no-repeat;

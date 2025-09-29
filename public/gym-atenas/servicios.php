@@ -13,7 +13,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
 
         <link rel="stylesheet" href="css/servicios.css">
 
-        <div class="contenedor-1">
+        <div class="contenedor-1" id = "membresias">
             <div class="separador"></div>  
             <div class="texto"> 
                 <h1>SERVICIOS</h1>
@@ -36,7 +36,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="separador"></div>  
         </div>
 
-        <div class="contenedor-2">
+        <div class="contenedor-2" id = "areas">
             <h2><span>ÁREAS</span></h2>
             <p>Nuestro gimnasio está cuidadosamente diseñado para ofrecer comodidad y funcionalidad:</p>
             <div class="areas">
@@ -54,7 +54,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 </div>
             </div>
         </div>
-        <div class="contenedor-3">
+        <div class="contenedor-3" id = "actividades">
             <h2><span>ACTIVIDADES</span></h2>
             <p>Ofrecemos una variedad de clases y actividades para todos los niveles y objetivos:</p>
             <h3>Taekwon-do:</h3>

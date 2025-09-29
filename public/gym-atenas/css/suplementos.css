@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
   position: relative;
-  color: white;
+  color: #fbff2a;
   text-align: center; /* Centra todo el texto dentro de la sección */
 }
 
@@ -40,7 +40,6 @@
 .seccion-suplementos h1{
     font-size: 3em;
     margin: 20px 5% 20px 5%;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .seccion-texto-1,
@@ -55,7 +54,7 @@
   font-size: 2em; /* Un tamaño más pequeño para el párrafo */
   line-height: 1.6; /* Mejora la legibilidad con un interlineado mayor */
   margin-bottom: 20px;
-  color: yellow;
+  color: white;
   margin: 50px auto; 
 }
 
