@@ -60,6 +60,7 @@
 .seccion-nosotros p,
 .seccion-nosotros ul{
   font-family: avenir;
+  text-align: justify;
 }
 
 .seccion-nosotros p {

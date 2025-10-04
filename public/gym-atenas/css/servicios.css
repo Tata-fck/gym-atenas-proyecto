@@ -85,6 +85,10 @@
   height: 5rem;
 }
 
+.parrafo-justificado {
+  text-align: justify;
+}
+
 .texto p,
 .texto ul,
 .contenedor-2 p,
