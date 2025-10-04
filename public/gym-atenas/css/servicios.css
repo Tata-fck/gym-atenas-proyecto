@@ -96,6 +96,9 @@
   color: white;
   font-family: avenir;
   font-size: 1.3em;
+  width: 80%;
+  margin: 0 auto 30px;
+  line-height: 1.5;
 }
 
 .texto ul{
@@ -329,5 +332,11 @@
     .contenedor-3 p{
       width: 90%;
       margin: 0 auto 50px;
+    }
+    .texto p,
+    .texto ul,
+    .contenedor-2 p,
+    .contenedor-4 p{
+      width: 100%;
     }
 }
