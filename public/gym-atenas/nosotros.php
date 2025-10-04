@@ -21,27 +21,27 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             </div>
 
             <div class="seccion-nosotros" id = "mision">
-                <h2><span>MISIÓN</span></h2>
+                <h2><span></span>MISIÓN</h2>
                 <p>Brindar un espacio moderno, seguro y motivador donde cada persona pueda desarrollar su potencial físico, guiada por entrenadores capacitados, apoyada por instalaciones de calidad, servicios complementarios, fomentando hábitos saludables y bienestar integral.</p>
             </div>
 
             <div class="seccion-nosotros">
-                <h2><span>VISIÓN</span></h2>
+                <h2><span></span>VISIÓN</h2>
                 <p>Ser reconocidos como el gimnasio de referencia en la ciudad, donde calidad, profesionalismo y atención personalizada se combinan para ofrecer resultados visibles y una experiencia única que fidelice a nuestra comunidad.</p>
             </div>
 
             <div class="seccion-nosotros" id = "valores">
-                <h2><span>VALORES</span></h2>
+                <h2><span></span>VALORES</h2>
                 <ul>
-                    <li>Compromiso: Cada meta de nuestros miembros es nuestra prioridad.</li>
-                    <li>Excelencia: Entrenadores y servicios diseñados para ofrecer la mejor experiencia.</li>
-                    <li>Inclusión: Un espacio donde todos son bienvenidos, sin importar su nivel de entrenamiento.</li>
-                    <li>Salud Integral: Promovemos hábitos que benefician cuerpo y mente.</li>
-                    <li>Motivación: Inspiramos a nuestros miembros a superar cada reto con energía y entusiasmo.</li>
-                    <li>Respeto: Valoramos la diversidad y fomentamos un ambiente de convivencia sana.</li>
-                    <li>Honestidad: Actuamos con transparencia y ética en cada servicio que ofrecemos.</li>
-                    <li>Seguridad: Garantizamos instalaciones seguras y un entorno confiable para todos.</li>
-                    <li>Responsabilidad: Asumimos con seriedad el compromiso de cuidar la salud, bienestar y confianza de nuestros miembros.</li>
+                    <li><b>Compromiso:</b> Cada meta de nuestros miembros es nuestra prioridad.</li>
+                    <li><b>Excelencia:</b> Entrenadores y servicios diseñados para ofrecer la mejor experiencia.</li>
+                    <li><b>Inclusión:</b> Un espacio donde todos son bienvenidos, sin importar su nivel de entrenamiento.</li>
+                    <li><b>Salud Integral:</b> Promovemos hábitos que benefician cuerpo y mente.</li>
+                    <li><b>Motivación:</b> Inspiramos a nuestros miembros a superar cada reto con energía y entusiasmo.</li>
+                    <li><b>Respeto:</b> Valoramos la diversidad y fomentamos un ambiente de convivencia sana.</li>
+                    <li><b>Honestidad:</b> Actuamos con transparencia y ética en cada servicio que ofrecemos.</li>
+                    <li><b>Seguridad:</b> Garantizamos instalaciones seguras y un entorno confiable para todos.</li>
+                    <li><b>Responsabilidad:</b> Asumimos con seriedad el compromiso de cuidar la salud, bienestar y confianza de nuestros miembros.</li>
                 </ul>
             </div>
         </div>

@@ -17,7 +17,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="separador"></div>  
             <div class="texto"> 
                 <h1>SERVICIOS</h1>
-                <h2><span>MEMBRESIAS</span></h2>
+                <h2><span></span>MEMBRESIAS</h2>
                 <p>Ofrecemos membresías diseñadas para adaptarse a tu estilo de vida y necesidades:</p>
                 <ul>
                     <li>MUJER</li>
@@ -27,7 +27,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 </ul>
                 <p>Cada membresía te da acceso a un ambiente seguro, moderno y motivador, 
                     con entrenadores capacitados que te guiarán en cada paso de tu entrenamiento.</p>
-                <h2><span>Entrenadores capacitados</span></h2>
+                <h2><span></span>Entrenadores Capacitados</h2>
                 <p>Nuestro equipo de entrenadores profesionales está listo para acompañarte en cada rutina, 
                     ofreciendo asesoría personalizada y programas adaptados a tus objetivos. 
                     Ya sea que busques tonificar, ganar fuerza, mejorar tu resistencia o aprender nuevas
@@ -37,7 +37,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         </div>
 
         <div class="contenedor-2" id = "areas">
-            <h2><span>ÁREAS</span></h2>
+            <h2><span></span>ÁREAS</h2>
             <p>Nuestro gimnasio está cuidadosamente diseñado para ofrecer comodidad y funcionalidad:</p>
             <div class="areas">
                 <div class="cont2-1">
@@ -56,7 +56,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         </div>
         <div class="contenedor-4" id="estructura">
             <div class="separador"></div>
-            <h2><span>ESTRUCTURA</span></h2>
+            <h2><span></span>ESTRUCTURA</h2>
             <p>Disponemos de:</p>
             <div class="contenedor-4_1">
                 <h3>baños limpios</h3>
@@ -71,7 +71,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
         </div>
         <div class="contenedor-3" id = "actividades">
              <div class="separador"></div>
-            <h2><span>ACTIVIDADES</span></h2>
+            <h2><span></span>ACTIVIDADES</h2>
             <p>Ofrecemos una variedad de clases y actividades para todos los niveles y objetivos:</p>
             <h3>Taekwon-do:</h3>
                 <p>Mejora tu disciplina, fuerza y coordinación.</p>

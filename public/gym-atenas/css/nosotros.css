@@ -37,22 +37,24 @@
 }
 
 .seccion-nosotros h2 {
-  font-size: 2.5rem; /* Un tamaño grande para el título */
-  color: #ffffff; 
-  margin-bottom: 20px; /* Espacio debajo del título */
-  text-align: center;
-  margin-left: -7%; 
-  font-family: "Anton";
-}
-.seccion-nosotros h2 span {
+  position: relative;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;        
   font-size: 2.5rem;
   color: #fbff2a;
   margin-bottom: 20px;
-  background: url('../img/flecha-r.svg');
-  background-repeat: no-repeat;
-  background-position: left center;
+  font-family: "Anton";
+  text-align: center;   
+}
+
+.seccion-nosotros h2 span {
+  display: inline-block;
+  margin-right: 1rem;   
+  background: url('../img/flecha-r.svg') no-repeat center;
   background-size: 5rem 5rem;
-  padding-left: 7rem; 
+  width: 5.5rem;
+  height: 5rem;      
 }
 
 .seccion-nosotros p,
@@ -79,7 +81,10 @@
   padding-left: 3em; 
   margin-bottom: 25px;
   background-position: 0.5em center; 
-
+}
+.seccion-nosotros ul b{
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 
 
@@ -89,5 +94,26 @@
   }
   .seccion-nosotros{
     max-width: 85%;
+  }
+  .seccion-nosotros h2 {
+    display: flex;            
+    justify-content: center;
+    width: 90%;
+    padding: 0 5%;
+  }
+  .seccion-nosotros h2 span{
+    position: absolute; 
+    left: 0;                
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0;          
+    background-size: 3rem 3rem;  
+    width: 3.5rem;
+    height: 3rem;
+  }
+
+  .seccion-nosotros li{
+    padding-left: 2em;
+    background-size: 0.6em 0.6em;
   }
 }

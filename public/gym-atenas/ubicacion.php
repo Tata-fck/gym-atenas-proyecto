@@ -19,7 +19,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 <h1>UBICACIÓN & HORARIO</h1>
             </div>
             <div class="seccion-texto-1">
-                <p><span>C. Gitana, La Nopalera, Tláhuac, 13220 Ciudad de México, CDMX. </span></p>
+                <p><span></span>C. Gitana, La Nopalera, Tláhuac, 13220 Ciudad de México, CDMX.</p>
             </div>
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d407.40612931590596!2d-99.05336776653843!3d19.30054096601656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0366308a955b%3A0x86fd03da3851d73c!2sATENAS%20INDUSTRIA%20GYM!5e0!3m2!1ses!2smx!4v1758947266347!5m2!1ses!2smx" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
             <div class="seccion-contenido">

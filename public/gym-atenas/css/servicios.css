@@ -62,22 +62,27 @@
 .contenedor-2 h2,
 .contenedor-3 h2,
 .contenedor-4 h2 {
-  font-size: 2.5rem; /* Un tamaño grande para el título */
-  margin-bottom: 30px; /* Espacio debajo del título */
-  margin-left: -7%;
+  position: relative;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;        
+  font-size: 2.5rem;
+  color: #fbff2a;
+  margin-bottom: 20px;
+  font-family: "Anton";
+  text-align: center;
 }
+
 .texto h2 span,
 .contenedor-2 h2 span,
 .contenedor-3 h2 span,
 .contenedor-4 h2 span {
-  font-size: 2.5rem;
-  color: #fbff2a;
-  margin-bottom: 20px;
-  background: url('../img/flecha-r.svg');
-  background-repeat: no-repeat;
-  background-position: left center;
+  display: inline-block;
+  margin-right: 1rem; 
+  background: url('../img/flecha-r.svg') no-repeat center;
   background-size: 5rem 5rem;
-  padding-left: 7rem; 
+  width: 5.5rem;
+  height: 5rem;
 }
 
 .texto p,
@@ -95,6 +100,10 @@
   display: flex; 
   flex-direction: column; 
   align-items: center; 
+  text-align: justify;
+  width: 60%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 
 }
 .texto li {
@@ -262,12 +271,30 @@
 }
 
 @media (max-width: 576px){
-    .texto h2,
-    .contenedor-2 h2,
-    .contenedor-3 h2,
-    .contenedor-4 h2 {
-      margin-left: -3%;
-    }
+  .texto h2,
+  .contenedor-2 h2,
+  .contenedor-3 h2,
+  .contenedor-4 h2 {
+    display: flex;            
+    justify-content: center;
+    width: 90%;
+    padding: 0 5%;
+    
+  }
+
+  .texto h2 span,
+  .contenedor-2 h2 span,
+  .contenedor-3 h2 span,
+  .contenedor-4 h2 span {
+    position: absolute; 
+    left: 0;                
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0;          
+    background-size: 3rem 3rem;  
+    width: 3.5rem;
+    height: 3rem;
+  }
     .contenedor-1::before{
         width: 100%;
         mask-image: linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 90%, transparent 99%);
@@ -279,6 +306,11 @@
         margin-right: auto;
         left: 0;
         transform: none;
+    }
+
+    .texto ul{
+      width: 90%;
+      align-items:normal; 
     }
 
     .contenedor-2 .areas{

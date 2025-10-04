@@ -17,17 +17,25 @@
   margin: 0 auto;
 }
 
-.seccion-texto-1 {
-  font-family: 'Avenir';
-  width: 90%;
-  margin: 50px auto;
+.seccion-texto-1 p{
+  position: relative;
+  display: inline-flex;       
+  justify-content: center;    
+  align-items: center;        
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Avenir";
+  text-align: center;
 }
 
 .seccion-texto-1 span {
-  font-size: 1.8em;
-  margin-bottom: 20px;
-  background: url('../img/ubicacion-icon.svg') no-repeat left center;
-  padding-left: 2em;
+  display: inline-block;
+  margin-right: 1rem;
+  background: url('../img/ubicacion-icon.svg') no-repeat center;
+  background-size: 3rem 3rem;
+  width: 6em;
+  height: 4rem;
 }
 
 .seccion-contenido {
