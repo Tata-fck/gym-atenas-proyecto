@@ -19,7 +19,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url('../img/fondo-4.png') no-repeat;
+  background: url('../img/fondo-servicios.webp') no-repeat;
   background-size: cover;
   background-position: center 70%;
   z-index: -1;
@@ -38,7 +38,7 @@
     height: 100%;
     top: 0;
     right: 0;
-    background: url('../img/fondo-4.png') no-repeat;
+    background: url('../img/fondo-4.webp') no-repeat;
     background-size: cover;
     background-position: center bottom;
     z-index: -1;
@@ -197,17 +197,17 @@
   z-index: -1;
 }
 .contenedor-2 .cont2-1::before{
-  background: url('../img/fondo-servicios-area1.png') no-repeat;
+  background: url('../img/fondo-servicios-area1.webp') no-repeat;
   background-size: cover;
   background-position: center 55%;
 }
 .contenedor-2 .cont2-2::before{
-  background: url('../img/fondo-servicios-area2.png') no-repeat;
+  background: url('../img/fondo-servicios-area2.webp') no-repeat;
   background-size: cover;
   background-position: center 55%;
 }
 .contenedor-2 .cont2-3::before{
-  background: url('../img/fondo-servicios-area3.png') no-repeat;
+  background: url('../img/fondo-servicios-area3.webp') no-repeat;
   background-size: cover;
   background-position: center 35%;
 }
@@ -219,7 +219,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url('../img/fondo-servicios-estructura.png') no-repeat;
+  background: url('../img/fondo-servicios-estructura.webp') no-repeat;
   background-size: cover;
   background-position: center 55%;
   z-index: -1;
@@ -261,7 +261,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url('../img/fondo-servicios-actividades.png') no-repeat;
+  background: url('../img/fondo-servicios-actividades.webp') no-repeat;
   background-size: cover;
   background-position: center 10%;
   z-index: -1;
