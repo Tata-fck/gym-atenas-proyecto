@@ -95,6 +95,9 @@
   .seccion-nosotros{
     max-width: 85%;
   }
+  .seccion-nosotros p{
+    text-align: justify;
+  }
   .seccion-nosotros h2 {
     display: flex;            
     justify-content: center;

@@ -301,11 +301,14 @@
     }
 
     .contenedor-1 .texto{
-        width: 95%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         left: 0;
         transform: none;
+    }
+    .contenedor-1 .texto p{
+      text-align: justify;
     }
 
     .texto ul{
