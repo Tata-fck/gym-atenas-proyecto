@@ -1,7 +1,7 @@
 footer{
     width: 80%;
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1.5fr;
+    grid-template-columns: 0.8fr 1.2fr;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'avenir';
@@ -19,7 +19,7 @@ footer hr{
     margin: 10px 0;
 }
 
-.column1, .column2 {
+.column1 {
     border-right: 1px solid rgba(255, 255, 255, 0.5); 
 }
 
@@ -28,22 +28,11 @@ footer hr{
     height: auto;
 }
 
-.column3{
-    color: white;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 100px;
-}
-.column3 .grupo{
-    margin-bottom: 20px;
-}
-
-.column3 h3{
-    margin-bottom: 10px;
-}
-.column3 p{
-    margin: 2px 0;
-    text-decoration: none;
+.column1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .column2{
@@ -71,21 +60,17 @@ footer hr{
         width: 95%;
         grid-template-columns: 1fr;
         margin-bottom: 40px;
+        margin-top: 0;
     }
 
-    .column1, .column2 {
+    .column1 {
         border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
         border-right: none;
-        padding-bottom: 30px;
     }
 
     .column1{
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-    .column3{
-        margin-left: 0;
-        margin-top: 30px;
     }
 }
