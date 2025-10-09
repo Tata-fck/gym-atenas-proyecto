@@ -25,10 +25,10 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                     <li>ESTUDIANTE</li>
                     <li>PAQUETES PERSONALIZADOS</li>
                 </ul>
-                <p>Cada membresía te da acceso a un ambiente seguro, moderno y motivador, 
+                <p class="parrafo-justificado">Cada membresía te da acceso a un ambiente seguro, moderno y motivador, 
                     con entrenadores capacitados que te guiarán en cada paso de tu entrenamiento.</p>
                 <h2><span></span>Entrenadores Capacitados</h2>
-                <p>Nuestro equipo de entrenadores profesionales está listo para acompañarte en cada rutina, 
+                <p class="parrafo-justificado">Nuestro equipo de entrenadores profesionales está listo para acompañarte en cada rutina, 
                     ofreciendo asesoría personalizada y programas adaptados a tus objetivos. 
                     Ya sea que busques tonificar, ganar fuerza, mejorar tu resistencia o aprender nuevas
                     disciplinas, contamos con la experiencia y conocimiento para maximizar tus resultados.</p>

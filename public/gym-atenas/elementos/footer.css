@@ -38,6 +38,7 @@ footer hr{
 .column2{
     color: #fbff2a;
     text-align: center;
+    border-right: none;
 }
 .column2 h3{
     font-family: 'Anton';
