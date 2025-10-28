@@ -1,7 +1,7 @@
 footer{
     width: 80%;
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr 0.3fr;
+    grid-template-columns: 0.8fr 1.2fr;
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: 'avenir';
@@ -20,12 +20,19 @@ footer hr{
 }
 
 .column1 {
-    border-right: none; 
+    border-right: 1px solid rgba(255, 255, 255, 0.5); 
 }
 
 .column1 img{
     width: 150px;
     height: auto;
+}
+
+.column1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .column2{
@@ -54,12 +61,12 @@ footer hr{
         width: 95%;
         grid-template-columns: 1fr;
         margin-bottom: 40px;
+        margin-top: 0;
     }
 
-    .column1, .column2 {
+    .column1 {
         border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
         border-right: none;
-        padding-bottom: 30px;
     }
 
     .column1{
