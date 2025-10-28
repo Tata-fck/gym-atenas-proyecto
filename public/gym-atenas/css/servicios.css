@@ -204,12 +204,12 @@
 .contenedor-2 .cont2-2::before{
   background: url('../img/fondo-servicios-area2.webp') no-repeat;
   background-size: cover;
-  background-position: center 55%;
+  background-position: left 55%;
 }
 .contenedor-2 .cont2-3::before{
-  background: url('../img/fondo-servicios-area3.webp') no-repeat;
+  background: url('../img/fondo-servicios-area4.webp') no-repeat;
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 68%;
 }
 
 .contenedor-4::before{
@@ -219,7 +219,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url('../img/fondo-servicios-estructura.webp') no-repeat;
+  background: url('../img/fondo-servicios-estructura2.webp') no-repeat;
   background-size: cover;
   background-position: center 55%;
   z-index: -1;

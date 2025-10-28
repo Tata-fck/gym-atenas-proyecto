@@ -15,9 +15,9 @@ h1{
     width: 60%;
     height: 100%;
     z-index: -1;
-    background: url('../img/fondo-inicio.webp') no-repeat;
+    background: url('../img/fondo-inicio3.webp') no-repeat;
     background-size: cover;
-    background-position: center 80%;
+    background-position: center 15%;
     mask-image: linear-gradient(to left, black 60%, rgba(0,0,0,0.5) 80%, transparent 95%),
                 linear-gradient(to bottom, black 60%, rgba(0,0,0,0.5) 80%, transparent 100%);
                 mask-composite: intersect;
