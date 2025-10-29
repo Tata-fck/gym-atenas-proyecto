@@ -19,7 +19,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url('../img/fondo-servicios.webp') no-repeat;
+  background: url('../img/fondo-servicios-area4.webp') no-repeat;
   background-size: cover;
   background-position: center 70%;
   z-index: -1;
@@ -178,7 +178,7 @@
   display: flex;
   flex-direction: column;
   position: relative; 
-  height: 33vh;
+  height: 60vh;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -197,19 +197,19 @@
   z-index: -1;
 }
 .contenedor-2 .cont2-1::before{
-  background: url('../img/fondo-servicios-area1.webp') no-repeat;
+  background: url('../img/fondo-servicios-area1-2.webp') no-repeat;
   background-size: cover;
-  background-position: center 55%;
+  background-position: center 80%;
 }
 .contenedor-2 .cont2-2::before{
-  background: url('../img/fondo-servicios-area2.webp') no-repeat;
+  background: url('../img/fondo-servicios-area2-2-1.webp') no-repeat;
   background-size: cover;
-  background-position: left 55%;
+  background-position: left 80%;
 }
 .contenedor-2 .cont2-3::before{
-  background: url('../img/fondo-servicios-area4.webp') no-repeat;
+  background: url('../img/fondo-servicios-area-3-2.webp') no-repeat;
   background-size: cover;
-  background-position: center 68%;
+  background-position: left 30%;
 }
 
 .contenedor-4::before{
