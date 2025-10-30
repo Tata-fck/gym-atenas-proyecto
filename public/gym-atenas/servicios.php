@@ -17,7 +17,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
             <div class="separador"></div>  
             <div class="texto"> 
                 <h1>SERVICIOS</h1>
-                <h2><span></span>MEMBRESIAS</h2>
+                <h2><span></span>MEMBRESÍAS</h2>
                 <p>Ofrecemos membresías diseñadas para adaptarse a tu estilo de vida y necesidades:</p>
                 <ul>
                     <li>MUJER</li>

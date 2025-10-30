@@ -289,6 +289,10 @@
     
   }
 
+  .contenedor-3::before{        
+        background-position: 65% center;
+    }
+
   .texto h2 span,
   .contenedor-2 h2 span,
   .contenedor-3 h2 span,
@@ -336,6 +340,7 @@
       width: 90%;
       margin: 0 auto 50px;
     }
+
     .texto p,
     .texto ul,
     .contenedor-2 p,
