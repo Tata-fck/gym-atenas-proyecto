@@ -98,7 +98,18 @@
   }
   .seccion-nosotros p{
     text-align: justify;
-  }
+
+    text-align: justify; /* Mantenemos la justificación */
+        
+        /* APLICAR LA SEPARACIÓN SILÁBICA (GUIONADO) */
+        hyphens: auto; 
+        -webkit-hyphens: auto; /* Para navegadores basados en WebKit (Chrome, Safari) */
+        -ms-hyphens: auto;     /* Para Internet Explorer */
+        
+        /* Opcional: Controla el número de líneas */
+        -webkit-hyphenate-limit-lines: 2; /* Para evitar que lo haga en todas las líneas */
+        letter-spacing: -0.01em;
+   }
   .seccion-nosotros h2 {
     display: flex;            
     justify-content: center;
@@ -119,5 +130,13 @@
   .seccion-nosotros li{
     padding-left: 2em;
     background-size: 0.6em 0.6em;
+
+    /* APLICAR LA JUSTIFICACIÓN CON GUIONES */
+        text-align: justify; /* Asegura la justificación */
+        hyphens: auto;
+        -webkit-hyphens: auto; /* Para Chrome y Safari */
+        -ms-hyphens: auto;     /* Para Edge/IE */
+        -webkit-hyphenate-limit-lines: 2;
+        letter-spacing: -0.01em;
   }
 }

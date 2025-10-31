@@ -330,6 +330,21 @@
     .contenedor-2 .areas{
       width: 95%; 
     }
+
+    .contenedor-2 p{
+        /* Limita el ancho para crear espacio a los lados */
+        width: 90%; 
+        /* Centra el párrafo */
+        margin: 0 auto; 
+        /* Asegura que el texto use la justificación mejorada */
+        text-align: center;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphenate-limit-lines: 2;
+        letter-spacing: -0.01em;
+    }
+
     .contenedor-4 p,
     .contenedor-4 .contenedor-4_1{
       width: 90%;
@@ -341,10 +356,25 @@
       margin: 0 auto 50px;
     }
 
-    .texto p,
-    .texto ul,
-    .contenedor-2 p,
+.texto p,
+.texto ul {
+    width: 100%; /* Ocupa el 100% de su contenedor centrado (90% de la pantalla) */
+    
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto; 
+    -ms-hyphens: auto;
+    -webkit-hyphenate-limit-lines: 2;
+    letter-spacing: -0.01em;
+}
+
     .contenedor-4 p{
-      width: 100%;
+        text-align: center; /* Centrar el texto en sí */
+        hyphens: auto; /* Desactivar guiones en esta línea corta */
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+          -webkit-hyphenate-limit-lines: 2;
+        /* Opcional: El ajuste de letter-spacing que probamos antes */
+        letter-spacing: -0.01em;
     }
 }

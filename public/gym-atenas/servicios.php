@@ -64,7 +64,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 <h3>regaderas limpias y equipadas</h3>
                 <h3>estacionamiento propio</h3>
                 <h3>wi-fi gratis</h3>
-                <h3>exhibidor de complementos</h3>
+                <h3>exhibidor de suplementos</h3>
             </div>
             <p>Asegurando que cada visita sea práctica y enfocada en tu bienestar.</p>
             <div class="separador"></div>
