@@ -1,7 +1,7 @@
 <?php
 $ruta_script = str_replace('\\', '/', $_SERVER['SCRIPT_FILENAME']);
 
-$marcador = '/vcard/public/';
+$marcador = '/public/';
 
 $posicion_marcador = strpos($ruta_script, $marcador);
 
@@ -25,7 +25,7 @@ if (is_null($slug_cliente) || $slug_cliente === '') {
     $mostrar_qr = true;
 
     /* LOCAL */
-    $ruta_logo ='/nexocards/' . $marcador . $slug_cliente . '/img/logo.webp';
+    $ruta_logo ='/gym-atenas-proyecto/' . $marcador . $slug_cliente . '/img/logo.webp';
     /* PRODUCCION */
     /*$ruta_logo = $marcador . $slug_cliente . '/img/logo.webp';*/
 }
