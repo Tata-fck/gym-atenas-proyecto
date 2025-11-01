@@ -2,5 +2,5 @@ RewriteEngine On
 RewriteBase /gym-atenas-proyecto/
 
 # Redirige la raíz del proyecto a tu index principal
-RewriteRule ^$ public/gym-atenas/index.php [L]
+RewriteRule ^$ public/atenas-industria-gym/index.php [L]
 
