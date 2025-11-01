@@ -38,6 +38,6 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
      <?php include("elementos/footer.html");?>
     <link rel="stylesheet" href="elementos/footer.css?v=<?php echo $version; ?>">
 
-    <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
+    <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.php");?>
 </body>
     

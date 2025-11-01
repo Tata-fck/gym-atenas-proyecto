@@ -206,7 +206,9 @@ h1{
         height: 45vh;
     }
     .contenedor-1::before{
-        background-position: center;
+        background-position: center top;
+        margin-top: 25%;
+        height: 75%;
     }
     .contenedor-1 .info-cliente{
         top: 60%;

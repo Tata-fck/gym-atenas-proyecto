@@ -24,7 +24,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
                 <p>Complementa tu entrenamiento con productos seleccionados para potenciar tu rendimiento: </p>
             </div>
             <div class="seccion-contenido">
-                <h2><span>PROTEINAS</span></h2>
+                <h2><span>PROTEÍNAS</span></h2>
                 <h2><span>CREATINA</span></h2>
                 <h2><span>PREENTRENOS</span></h2>
                 <h2><span>BEBIDAS ENERGÉTICAS</span></h2>
@@ -40,5 +40,5 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
      <?php include("elementos/footer.html");?>
     <link rel="stylesheet" href="elementos/footer.css?v=<?php echo $version; ?>">
 
-    <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
+    <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.php");?>
 </body>
