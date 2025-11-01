@@ -308,7 +308,7 @@ nav a:hover::before {
     }
 
     .whatsapp-float {
-        bottom: 1em;
+        bottom: 7vh;
         left: 1em;
         gap: 6px;
     }
