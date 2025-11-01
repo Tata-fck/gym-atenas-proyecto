@@ -8,13 +8,13 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
 
 <body>
     <main>
-        <?php include("elementos/header.html");?>
-        <link rel="stylesheet" href="elementos/header.css">
+        <?php include("elementos/header.php");?>
+        <link rel="stylesheet" href="elementos/header.css?v=<?php echo $version; ?>">
         
     </main>
 
            <?php include("elementos/footer.html");?>
-    <link rel="stylesheet" href="elementos/footer.css">
+    <link rel="stylesheet" href="elementos/footer.css?v=<?php echo $version; ?>">
 
     <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
 </body>

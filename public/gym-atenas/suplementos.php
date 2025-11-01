@@ -10,10 +10,10 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
 <body>
     <div class="background-wrapper"></div> 
     <main>
-        <?php include("elementos/header.html");?>
-        <link rel="stylesheet" href="elementos/header.css">
+        <?php include("elementos/header.php");?>
+        <link rel="stylesheet" href="elementos/header.css?v=<?php echo $version; ?>">
 
-        <link rel="stylesheet" href="css/suplementos.css">
+        <link rel="stylesheet" href="css/suplementos.css?v=<?php echo $version; ?>">
 
         <div class="contenedor-1">
             <div class="separador"></div>   
@@ -38,7 +38,7 @@ include(SHARED_PATH . "/elementos/head-vcard/head.php");
     </main>
 
      <?php include("elementos/footer.html");?>
-    <link rel="stylesheet" href="elementos/footer.css">
+    <link rel="stylesheet" href="elementos/footer.css?v=<?php echo $version; ?>">
 
     <?php include(SHARED_PATH . "/elementos/footer-vcard/footer.html");?>
 </body>

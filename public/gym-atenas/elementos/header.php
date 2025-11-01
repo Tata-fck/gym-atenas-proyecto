@@ -1,3 +1,7 @@
+<?php 
+    $version=1;
+?>
+
 <header>
     <div class="info-header">
         <img src="img/logo.webp" alt="Gym Atenas Logo">
